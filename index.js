@@ -20,6 +20,7 @@ const main = async () => {
         var script='';
 
         if (configfile) {
+            console.log(process.platform);
             if (process.platform == 'linux' || process.platform == 'darwin') {
                 script = 'cd ' + '"' + productpath + '/cmdline"' + '\n'
                     + 'bash cmdline.sh'
@@ -65,6 +66,7 @@ const main = async () => {
             }
 
             if (process.platform == 'linux' || process.platform == 'darwin') {
+                console.log(process.platform);
                 script = 'cd ' + '"' + productpath + '/cmdline"' + '\n'
                     + 'bash cmdline.sh'
                     + ' -workspace ' + '"' + workspace + '"'

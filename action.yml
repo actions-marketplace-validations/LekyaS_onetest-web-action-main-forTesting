@@ -1,4 +1,4 @@
-name: 'HCL OneTest WebUI GitHub Action'
+name: 'Ots-Preethi-WebUI-ActionTesting'
 description: 'Execute HCL OneTest WebUI based tests and compound tests from GitHub Actions workflows.'
 branding:
   icon: 'check-square'
